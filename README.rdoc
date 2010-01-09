@@ -7,7 +7,7 @@ Start new rails app using full bdd battery template[http://gist.github.com/27295
 
 At this point the project is ready to use cucumber. If spanish cukes steps are needed:
 
-First add the sake file:
+First add the sake[http://errtheblog.com/posts/60-sake-bomb] file:
     $ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
 
 Then from RAILS_ROOT wget the steps files using the task:
