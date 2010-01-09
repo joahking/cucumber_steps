@@ -7,10 +7,10 @@ Cucumber localized steps I normally use on top of others e.g: cucumber default w
 So you want spanish steps? The thing is to wget them into features/steps_definitions
 
 add the sake file
-$ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
+    $ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
 
 and then wget the steps files
-$ sake cuke_steps:install
+    $ sake cuke_steps:install
 
 = TODO
 
