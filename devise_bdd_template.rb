@@ -57,7 +57,7 @@ end
 
 file 'spec/blueprints.rb', <<-BLUEPRINTS
 require 'machinist/active_record'
-require 'shams'
+require File.expand_path(File.dirname(__FILE__) + '/shams')
 # dump your blueprints here
 BLUEPRINTS
 
