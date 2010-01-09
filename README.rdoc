@@ -1,6 +1,6 @@
 = Cucumber steps
 
-Cucumber localized steps I normally use on top of others e.g: cucumber default web_steps, bmabey email_steps and such.
+Cucumber localized steps I normally use on top of other steps e.g: cucumber default web_steps, bmabey email_steps and such. This steps here are mainly spanish translations of english ones.
 
 Start new rails app using full bdd battery template, in this case giving devise as auth a try
   $ rails APP -m http://gist.github.com/raw/272954/09ca16cf5220a1a84964f5e5c7f816b05e990271/devise_bdd_template.rb
