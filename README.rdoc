@@ -5,3 +5,5 @@ Cucumber localized steps I normally use on top of others e.g: cucumber default w
 = Install
 
 = TODO
+
+* check against real projects that steps are ok
