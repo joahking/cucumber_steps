@@ -4,6 +4,12 @@ Cucumber localized steps I normally use on top of others e.g: cucumber default w
 
 = Install
 
+So you want spanish steps?
+
+$ sake url(TODO)
+
 = TODO
 
 * check against real projects that steps are ok
+* test the rake/sake task
+* is really needed the Rakefile to do rake -T on root?
