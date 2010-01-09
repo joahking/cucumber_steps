@@ -10,8 +10,10 @@ At this point the project is ready to use cucumber. If spanish cukes steps are n
 First add the sake file:
     $ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
 
-Then wget the steps files using the task:
+Then from RAILS_ROOT wget the steps files using the task:
     $ sake cuke_steps:install
+
+the spanish steps are now on features/step_definitions
 
 = TODO
 
