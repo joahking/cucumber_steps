@@ -2,8 +2,8 @@
 
 Cucumber localized steps I normally use on top of other steps e.g: cucumber default web_steps, bmabey email_steps and such. This steps here are mainly spanish translations of english ones.
 
-Start new rails app using full bdd battery template[http://gist.github.com/272954], in this case giving devise[http://github.com/plataformatec/devise] as authentication system a try:
-  $ rails APP -m http://github.com/joahking/cucumber_steps/raw/master/devise_bdd_template.rb
+Start new rails app using full bdd battery template[http://github.com/joahking/my_rails_templates/blob/master/devise_bdd_template.rb], in this case giving devise[http://github.com/plataformatec/devise] as authentication system a try:
+  $ rails APP -m http://github.com/joahking/my_rails_templates/raw/master/devise_bdd_template.rb
 
 At this point the project is ready to use cucumber. If spanish cukes steps are needed:
 
