@@ -1,15 +1,16 @@
 = Cucumber steps
 
-Cucumber localized steps I normally use on top of others e.g: cucumber default web_steps, bmabey email_steps and such
+Cucumber localized steps I normally use on top of others e.g: cucumber default web_steps, bmabey email_steps and such.
 
-= Install
+Start new rails app using full bdd battery template, in this case giving devise as auth a try
+  $ rails APP -m http://gist.github.com/raw/272954/09ca16cf5220a1a84964f5e5c7f816b05e990271/devise_bdd_template.rb
 
-So you want spanish steps? The thing is to wget them into features/steps_definitions
+At this point the project is ready to use cucumber. If spanish cukes steps are needed:
 
-add the sake file
+First add the sake file
     $ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
 
-and then wget the steps files
+Then wget the steps files using the task
     $ sake cuke_steps:install
 
 = TODO
