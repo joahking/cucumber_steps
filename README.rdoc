@@ -4,9 +4,13 @@ Cucumber localized steps I normally use on top of others e.g: cucumber default w
 
 = Install
 
-So you want spanish steps?
+So you want spanish steps? The thing is to wget them into features/steps_definitions
 
-$ sake url(TODO)
+add the sake file
+$ sake -i http://github.com/joahking/cucumber_steps/raw/master/tasks/cuke_steps.rake
+
+and then wget the steps files
+$ sake cuke_steps:install
 
 = TODO
 
